@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            height: 150px;
+            width: 50%;
+            background-color: yellow;
+            float: left;
+            /* float is used to make horizontal to vertical
+            and after usinf float the div under the 1st one gets overlapped by 1st div */
+        }
+        
+        .b {
+            height: 150px;
+            width: 30%;
+            background-color: green;
+            float: right;
+        }
+        
+        .c {
+            height: 150px;
+            width: 20%;
+            background-color: blue;
+            /* float: left; */
+            /* clear is used to make the div in same area after the float is used */
+            clear: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+
+</html>

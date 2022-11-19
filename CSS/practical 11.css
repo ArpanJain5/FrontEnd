@@ -1,0 +1,35 @@
+div {
+    color: purple;
+}
+
+
+/* 1. element selector */
+
+.para {
+    color: blue;
+}
+
+
+/* 2. class selector */
+
+#p1 {
+    color: yellowgreen;
+}
+
+
+/* 3. id selector */
+
+i,
+b {
+    color: red;
+}
+
+
+/* 4. multivalued selector */
+
+* {
+    background-color: aqua;
+}
+
+
+/* 5. universal selector */

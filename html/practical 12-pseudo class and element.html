@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class and Element</title>
+    <style>
+        div::first-letter {
+            color: red;
+            font-size: 30px;
+        }
+        
+        div::first-line {
+            color: green;
+        }
+        
+        div::selection {
+            background-color: purple;
+            color: white;
+        }
+        
+        div::before {
+            content: 'Tops Technogoies';
+        }
+        
+        div::after {
+            content: 'Tops Technogoies';
+        }
+        
+         ::marker {
+            color: blue;
+        }
+        /* pseudo class */
+        
+        div:hover {
+            color: aqua;
+        }
+        
+        a:active {
+            color: yellow;
+        }
+        
+        a:link {
+            color: rebeccapurple;
+        }
+        
+        a:visited {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore maxime repudiandae dolores vitae itaque architecto non nihil reiciendis voluptatum libero eos consequuntur molestiae, fugit consequatur iusto adipisci placeat! Nesciunt, blanditiis?Lorem
+        ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, mollitia dolorem tenetur asperiores earum debitis delectus, similique quidem unde sequi quibusdam facilis, et officia suscipit dolores eveniet? Atque, aut nesciunt!
+    </div>
+    <ul>
+        <li>Tops Technogoies</li>
+    </ul>
+    <a href="https://www.google.com">Google</a>
+</body>
+
+</html>

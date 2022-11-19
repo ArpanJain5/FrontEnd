@@ -1,0 +1,80 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .header {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        line-height: 80px;
+        /* line height should be same as height */
+    }
+    
+    .nav {
+        height: 40px;
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+    }
+    
+    ul {
+        height: 40px;
+        width: 100%;
+    }
+    
+    li {
+        list-style: none;
+        float: left;
+        padding: 10px 20px;
+    }
+    
+    li:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    .section {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .s1 {
+        height: 400px;
+        width: 25%;
+        float: left;
+    }
+    
+    .s2 {
+        height: 400px;
+        width: 50%;
+        float: left;
+    }
+    
+    .s2 img {
+        height: 500px;
+        width: 100%;
+    }
+    
+    .s3 {
+        height: 400px;
+        width: 25%;
+        float: left;
+    }
+    
+    .content {
+        height: 200px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: justify;
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    
+    .footer {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
