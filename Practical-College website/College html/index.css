@@ -62,13 +62,13 @@ button {
     width: 80%;
 }
 
-ul {
+.navi .navi1 {
     height: 80px;
     width: 100%;
     display: flex;
 }
 
-li {
+.navi .navi2 {
     list-style: none;
     padding: 10px 20px;
     line-height: 60px;
@@ -91,7 +91,7 @@ li {
 }
 
 .paper {
-    height: 1000px;
+    height: 500px;
     width: 100%;
     display: flex;
 }
@@ -112,4 +112,70 @@ li {
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 5%;
+}
+
+.content {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.content p {
+    margin-left: 5%;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    width: 40%;
+}
+
+.c1 {
+    height: 500px;
+    width: 50%;
+    /* margin-top: 3%; */
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+
+.c1 .first {
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    /* padding-bottom: 0%; */
+    font-weight: lighter;
+    text-align: left;
+}
+
+.first .firstlist {
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.c2 {
+    height: 500px;
+    width: 50%;
+}
+
+.c2 img {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.td1 {
+    padding: 10px;
+}
+
+.td2 {
+    padding: 0px 0px 0px 50%;
+}
+
+.td3 {
+    color: brown;
+    padding-left: 50%;
+    width: 100%;
 }
