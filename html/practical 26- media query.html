@@ -11,40 +11,33 @@
             height: 80px;
             width: 100%;
             background-color: aqua;
-        }
-        
-        .tablet {
-            height: 80px;
-            width: 100%;
-            background-color: yellow;
-        }
-        
-        .laptop {
-            height: 80px;
-            width: 100%;
-            background-color: red;
+            visibility: hidden;
         }
         
         .computer {
             height: 80px;
             width: 100%;
             background-color: purple;
+            visibility: hidden;
         }
         
-        .lg {
-            height: 80px;
-            width: 100%;
-            background-color: blue
+        @media (max-width: 480px) {
+            .mobile {
+                visibility: visible;
+            }
+        }
+        
+        @media(min-width: 481px) and (max-width:2000px) {
+            .computer {
+                visibility: visible;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="mobile">Mobile</div>
-    <div class="tablet">Tablet</div>
-    <div class="laptop">Laptop</div>
     <div class="computer">Computer</div>
-    <div class="lg">Large Screen</div>
 </body>
 
 </html>
