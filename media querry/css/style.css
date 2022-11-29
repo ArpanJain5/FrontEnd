@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.logo {
+    height: 100px;
+    width: 10%;
+}
+
+.logo img {
+    height: 100px;
+    width: 100%;
+}
+
+.name {
+    height: 80px;
+    width: 90%;
+    color: white;
+    /* background-color: aqua; */
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.ul1 {
+    height: 40px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    display: flex;
+}
+
+.li1 {
+    list-style: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+.li1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    /* background-color: aqua; */
+}
+
+.gallery {
+    height: auto;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: black; */
+}
+
+.g1 {
+    height: auto;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.g1 img {
+    height: 274px;
+    width: 100%;
+}
+
+.g2 {
+    height: auto;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.g2 img {
+    height: 274px;
+    width: 100%;
+}
+
+.g3 {
+    height: auto;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.g3 img {
+    height: 274px;
+    width: 100%;
+}
+
+.g4 {
+    height: auto;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.g4 img {
+    height: 274px;
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+    height: 50px;
+    width: 580px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+button:hover {
+    margin-top: 10px;
+    height: 50px;
+    width: 580px;
+    border-radius: 25px;
+    background-color: lightgray;
+}
+
+.form {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    display: flex;
+    /* background-color: black; */
+}
+
+.offer {
+    height: auto;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* color: white; */
+}
+
+.set {
+    height: auto;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.set img {
+    height: auto;
+    width: 100%;
+}
