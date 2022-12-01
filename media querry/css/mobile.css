@@ -135,4 +135,39 @@
         height: auto;
         width: 100%;
     }
+    .footer {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    .f1 {
+        height: 300px;
+        width: 30%;
+    }
+    .s1 {
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+    }
+    .s2 {
+        color: white;
+        font-size: 15px;
+    }
+    .f2 {
+        height: 300px;
+        width: 30%;
+    }
+    .f3 {
+        height: 300px;
+        width: 30%;
+        background-color: black;
+    }
+    .c {
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+    }
+    .p {
+        color: white;
+    }
 }
