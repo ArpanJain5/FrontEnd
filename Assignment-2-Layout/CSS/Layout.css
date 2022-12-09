@@ -1,0 +1,59 @@
+* {
+    margin: 0%;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+}
+
+.logo {
+    height: 100px;
+    width: 10%;
+}
+
+.logo img {
+    height: 100px;
+    width: 100%;
+}
+
+@-webkit-keyframes name {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes name {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.name {
+    height: 100px;
+    width: 90%;
+    font-size: 30px;
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation-name: name;
+}
