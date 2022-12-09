@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- function = grp of statement -->
+    <!-- function = grp of statement 
     <script>
         var a = 10;
         var b = 20;
@@ -18,6 +18,40 @@
             document.write(a + b);
         }
         sum();
+    </script>-->
+
+
+    <!-- 2 types of variable 
+         1.- local 
+         2.- global 
+
+    <script>
+        var a = 10; //global variable
+
+        function get() {
+            var a = 20;
+            document.write(a + "<br>"); //local variable
+        }
+        get();
+        document.write(a);
+    </script>-->
+
+
+    <!-- function with parameters 
+    <script>
+        function sum(a, b) {
+            document.write(a + b);
+        }
+        sum(10, 20);
+    </script>-->
+
+
+    <!-- return function -->
+    <script>
+        function message(a, b) {
+            return a * b;
+        }
+        document.write(message(10, 20));
     </script>
 </body>
 
