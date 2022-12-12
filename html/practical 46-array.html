@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = [
+            [1, "Arpan", "Ahmedabad"],
+            [2, "Anmol", "Rewari"],
+            [3, "Suyash", "Dharuhera"]
+        ];
+        document.write("<table border='1px'>");
+        for (var x = 0; x <= 2; x++) {
+            document.write("<tr>")
+            for (var y = 0; y <= 2; y++) {
+                document.write("<td>" + a[x][y] + "</td>");
+            }
+            document.write("<tr>");
+        }
+    </script>
+</body>
+
+</html>
