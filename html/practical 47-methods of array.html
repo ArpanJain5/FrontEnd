@@ -17,7 +17,15 @@
     5. modify and delete
     6. isarray
     7. slice and splice
-    8. indexof and lastindexof -->
+    8. indexof and lastindexof
+    9. some and every
+    10. find and findindex
+    11. filter and typeof
+    12. toString, valueof and fill
+    13. foreach method
+    14. object
+    15. array of object
+    16. for in loop-->
 
     <!-- reverse and sort
     <script>
@@ -105,10 +113,141 @@
     </script>-->
 
 
-    <!-- include -->
+    <!-- include 
     <script>
         var a = ["Arpan", "Jain", 01, "Anmol", "Kataria", "Tops", "Techonolgies"]
         document.write(a.includes("Jain"));
+    </script>-->
+
+
+    <!-- some and every 
+    <script>
+        var a = [15, 80, 118, 205];
+        var b = a.every(demo);
+        var c = a.some(demo1);
+        document.write(b + "<br>")
+        document.write(c + "<br>")
+
+        function demo(a) {
+            return a >= 200;
+        }
+
+        function demo1(a) {
+            return a >= 200;
+        }
+    </script>-->
+
+
+    <!-- find and findindex 
+    <script>
+        var a = [10, 20, 30, 40, 50]
+        document.write(a + "<br>")
+        var b = a.find(demo)
+        document.write(b + "<br>")
+
+        function demo(age) {
+            return age >= 18;
+        }
+        var c = a.findIndex(demo1)
+        document.write(c + "<br>")
+
+        function demo1(age) {
+            return age >= 18;
+        }
+    </script>-->
+
+
+    <!-- filter and typeof 
+    <script>
+        var a = [10, 20, 30, 40, 50]
+        document.write(a + "<br>")
+        var b = a.filter(demo)
+        document.write(b + "<br>")
+        document.write(typeof b);
+
+        function demo(age) {
+            return age >= 18;
+        }
+    </script>-->
+
+
+    <!-- tostring 
+    <script>
+        var a = [10, 20, 30]
+        document.write(typeof a + "<br>");
+        a.toString();
+        document.write(typeof a + "<br>");
+        // document.write(a.valueof() + "<br>");
+        a.fill("Arpan");
+        document.write(a);
+    </script>-->
+
+
+
+    <!-- foreach method 
+    <h2>foreach method</h2>
+    <script>
+        var a = ["Arpan", "Jain", "Ahmedabad", "Gujarat"]
+        document.write(a + "<br>")
+        a.forEach(get);
+
+        function get(a, b) {
+            // document.write(b + " : " + a + "<br>")
+            console.log(b, a);
+        }
+
+        a.forEach(function get(data, no) {
+            document.write(no + ":" + data + "<br>")
+        })
+    </script>-->
+
+
+
+    <!-- object 
+    <script>
+        var a = {
+            fname: "Arpan",
+            lname: "Jain",
+            age: "20",
+            email: "arpanrewari@gmail.com"
+        }
+        document.write(a.fname + "<br>" + a.lname + "<br>" + a.age + "<br>" + a.email + "<br>")
+    </script>-->
+
+
+    <!-- array of object 
+    <script>
+        var a = [{
+            name: "Arpan",
+            age: "20",
+            city: "Ahmedabad",
+        }, {
+            name: "Anmol",
+            age: "21",
+            city: "Rewari",
+        }, {
+            name: "Suyash",
+            age: "19",
+            city: "Dharuhera",
+        }]
+        console.log(a)
+        for (var b = 0; b < a.length; b++) {
+            document.write(a[b].name + " " + a[b].age + " " + a[b].city + "<br>")
+        }
+    </script>-->
+
+
+    <!-- for in loop -->
+    <script>
+        var a = {
+                fanme: "Arpan",
+                lname: "Jain"
+            }
+            // document.write(a)
+        console.log(a)
+        for (b in a) {
+            document.write(a[b] + "<br>")
+        }
     </script>
 </body>
 
