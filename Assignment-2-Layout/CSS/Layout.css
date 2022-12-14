@@ -5,7 +5,7 @@
 .header {
     height: 100px;
     width: 100%;
-    background-color: greenyellow;
+    background-image: linear-gradient(to right, rgb(67, 67, 67), rgb(156, 155, 155));
     display: flex;
 }
 
@@ -56,4 +56,142 @@
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation-name: name;
+}
+
+.ul1 {
+    height: 40px;
+    background-image: linear-gradient(to left, rgb(67, 67, 67), rgb(156, 155, 155));
+    color: black;
+    display: flex;
+}
+
+.li1 {
+    list-style: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+.li1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.Thumbnail {
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t1 {
+    height: 200px;
+    width: 25%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.t2 {
+    height: 200px;
+    width: 25%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.t3 {
+    height: 200px;
+    width: 25%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.t4 {
+    height: 200px;
+    width: 25%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.t5 {
+    height: 200px;
+    width: 25%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.t6 {
+    height: 200px;
+    width: 25%;
+    margin-right: 6%;
+    border: 2px solid #969696;
+    margin-bottom: 1%;
+}
+
+.a1 {
+    height: 70px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.a2 {
+    height: 100px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+
+.f1 {
+    height: auto;
+    width: 30%;
+}
+
+.s1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.s2 {
+    color: white;
+    font-size: 15px;
+}
+
+.f2 {
+    height: auto;
+    width: 30%;
+}
+
+.f3 {
+    height: auto;
+    width: 30%;
+    background-color: grey;
+}
+
+.c {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.p {
+    color: white;
 }
