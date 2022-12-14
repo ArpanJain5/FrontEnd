@@ -12,7 +12,10 @@
     <!-- methods-
     1. reverse and sort 
     2. push and pop
-    3. shift and unshift-->
+    3. shift and unshift
+    4.concationation and join
+    5. modify and delete
+6. isarray-->
 
     <!-- reverse and sort
     <script>
@@ -38,13 +41,44 @@
     </script>-->
 
 
-    <!-- shift and unshift -->
+    <!-- shift and unshift 
     <script>
         var a = ["Tops", 01, "Technologies"]
         a.unshift("Arpan");
         document.write(a + "<br>")
         a.shift()
         document.write(a)
+    </script>-->
+
+
+    <!-- concationation and join 
+    <script>
+        var a = "Arpan"
+        var b = "Jain"
+        document.write(a.concat(b) + "<br>")
+        var c = ["Tops", "Technologies"]
+        document.write(c + "<br>")
+        var d = c.join("-")
+        document.write(d)
+    </script>-->
+
+
+    <!--  modify and delete
+    <script>
+        var a = [01, "Arpan", "Jain", "Ahmedabad"]
+        document.write(a + "<br>")
+        a[3] = "Rewari"
+        document.write(a + "<br>")
+        delete a[0];
+        document.write(a + "<br>")
+    </script> -->
+
+
+    <!-- isarray -->
+    <script>
+        //var a = 10;
+        var a = [10];
+        document.write(Array.isArray(a))
     </script>
 </body>
 
