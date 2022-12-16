@@ -10,16 +10,34 @@
 
 <body>
     <form action="" name="reg">
-        <input type="text" name="fname">
+        Name<input type="text" name="fname" placeholder="name"><br> Password
+        <input type="password" name="p" placeholder="password"><br> Confirm Password
+        <input type="password" name="cp" placeholder="confirm password"><br>
         <input type="submit" onclick="get()">
     </form>
     <script>
         function get() {
-            var x = document.forms["reg"]["fname"].value
-            if (x == "") {
+            // var x = document.forms["reg"]["fname"].value
+            var x = document.forms["reg"]["p"].value
+            var y = document.forms["reg"]["cp"].value
+            var z = document.forms["reg"]["fname"].value
+            if (z == "") {
                 alert("Enter Name")
+            } else if (x == "" || x.length < 6) {
+                if (x.length < 6) {
+                    alert("Password is less than 6 letters")
+                } else {
+                    alert("Enter password")
+                }
+            } else if (y == "") {
+                alert("Enter confirm new password")
             } else {
-                document.write(x)
+                if (x == y) {
+                    alert("Sucessfully Registered")
+                    document.write("Welcome" + "<br>" + z)
+                } else {
+                    alert("Enter password and confirm new password correctly")
+                }
             }
         }
     </script>
