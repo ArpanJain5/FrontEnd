@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        .box {
+            height: 150px;
+            width: 150px;
+            background-color: yellow;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            /* margin-top: 20%; */
+        }
+    </style>
+</head>
+
+<body>
+    <button class="l">Left</button>
+    <button class="r">Right</button>
+    <button class="t">Top</button>
+    <button class="b">Bottom</button>
+    <br><br><br>
+    <div class="box">
+
+    </div>
+    <br><br><br>
+
+    <script>
+        $(document).ready(function() {
+            $(".l").click(function() {
+                $(".box").animate({
+                    left: '500'
+                })
+            })
+            $(".r").click(function() {
+                $(".box").animate({
+                    right: '500'
+                })
+            })
+            $(".t").click(function() {
+                $(".box").animate({
+                    top: '500'
+                })
+            })
+            $(".b").click(function() {
+                $(".box").animate({
+                    bottom: '500'
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

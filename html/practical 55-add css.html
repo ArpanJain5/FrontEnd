@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        .x {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="y">Add CSS</button>
+    <button class="z">Remove CSS</button>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid consequatur earum assumenda voluptatum aut nihil. Pariatur, neque nam, ratione aperiam maiores atque impedit asperiores commodi fuga quia repudiandae sequi error. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Ratione, veritatis rem! Laudantium modi laborum doloribus aspernatur asperiores animi iste, alias inventore minus maiores consectetur et molestiae, non, assumenda eum eveniet?
+    </p>
+    <script>
+        $(document).ready(function() {
+            $(".y").click(function() {
+                $("p").addClass("x");
+            })
+            $(".z").click(function() {
+                $("p").removeClass("x");
+            })
+        })
+    </script>
+</body>
+
+</html>
